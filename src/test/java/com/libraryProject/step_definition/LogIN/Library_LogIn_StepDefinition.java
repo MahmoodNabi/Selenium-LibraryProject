@@ -18,7 +18,7 @@ LoginPage loginPage=new LoginPage();
         loginPage.login(string);
     }
 
-sos
+
     @Then("user should be see dashboard page")
     public void userShouldBeSeeDashboardPage() {
 String expectedresult ="Dashboard";
